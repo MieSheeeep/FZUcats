@@ -45,7 +45,7 @@
 <view class="block">
   <view wx:for="{{friendApps}}" class="friend-link" bindtap="clickFriendLink" data-appid="{{item.appid}}" wx:key="name">
     <image mode='aspectFit' src="{{item.logo}}"></image>
-    <view class="friend-link-text">{{item.name}}</view>
+    <view class="friend-link-text">{{"笃行猫谱"}}</view>
   </view>
 </view>
 

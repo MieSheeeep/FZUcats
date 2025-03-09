@@ -7,34 +7,34 @@ module.exports = {
   // 版本号
   app_version: "v1.14.4",
   // laf后台服务地址
-  laf_url: 'https://grf1yx.laf.run',
+  laf_url: 'https://xz156u.laf.run',
   // laf后台服务地址（微信开发工具中），一般和上面laf_url一致就好
-  laf_dev_url: 'https://grf1yx.laf.run',
+  laf_dev_url: 'https://xz156u.laf.run',
   // 使用私有的腾讯云cos存储，需要url签名
-  use_private_tencent_cos: true,
+  use_private_tencent_cos: false,
   // 私有的腾讯云cos签名过期时间（秒）
   sign_expires_tencent_cos: 3600 * 2,
 
   // 科普页图片
   science_imgs: [
-    "https://oss.laf.run/grf1yx-cat/系统/科普1.png",
-    "https://oss.laf.run/grf1yx-cat/系统/科普2.png",
-    "https://oss.laf.run/grf1yx-cat/系统/科普3.png",
-    "https://oss.laf.run/grf1yx-cat/系统/科普4.png",
-    "https://oss.laf.run/grf1yx-cat/系统/科普5.png"
+    "https://oss.laf.run/xz156u-cat/系统/科普1.png",
+    "https://oss.laf.run/xz156u-cat/系统/科普2.png",
+    "https://oss.laf.run/xz156u-cat/系统/科普3.png",
+    "https://oss.laf.run/xz156u-cat/系统/科普4.png",
+    "https://oss.laf.run/xz156u-cat/系统/科普5.png"
   ],
 
   // 赞赏码图片
-  reward_img: "https://oss.laf.run/grf1yx-cat/系统/赞赏码.jpg",
+  reward_img: "https://oss.laf.run/xz156u-cat/系统/赞赏码.jpg",
   // 新猫问卷图片
-  feedback_wj_img: "https://oss.laf.run/grf1yx-cat/系统/新猫问卷.png",
+  feedback_wj_img: "https://oss.laf.run/xz156u-cat/系统/新猫问卷.png",
   // 小程序菊花码图片
-  mpcode_img: "https://oss.laf.run/grf1yx-cat/系统/菊花码.jpg",
+  mpcode_img: "https://oss.laf.run/xz156u-cat/系统/菊花码.jpg",
 
   // 徽章排行榜的数量榜logo
-  badge_rank_count_img: "https://oss.laf.run/grf1yx-cat/系统/badge_rank_count.png",
+  badge_rank_count_img: "https://oss.laf.run/xz156u-cat/系统/badge_rank_count.png",
   // 徽章排行榜的价值榜logo
-  badge_rank_score_img: "https://oss.laf.run/grf1yx-cat/系统/badge_rank_score.png",
+  badge_rank_score_img: "https://oss.laf.run/xz156u-cat/系统/badge_rank_score.png",
 
   // 猫猫领养状态字符串，对应数据库cat.adopt中的数字下标
   cat_status_adopt: ["未领养", "已领养", "寻找领养中"],
@@ -44,7 +44,7 @@ module.exports = {
   // 各种文字内容
   text: {
     // 小程序名
-    app_name: "FZU猫谱",
+    app_name: "UU猫谱",
     // 首页，pages/genealogy/genealogy
     genealogy: {
       share_tip: "发现身边校园猫咪",

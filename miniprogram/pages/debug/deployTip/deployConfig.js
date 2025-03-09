@@ -143,7 +143,7 @@ const init_setting = [{
     "apps": [{
       "appid": "wx5bd705b2bc91c73b",
       "logo": "/pages/public/images/system/zdmp.png",
-      "name": "福大猫谱"
+      "name": "笃行猫谱"
     }]
   },
   {
